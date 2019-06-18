@@ -1,0 +1,29 @@
+
+blockquote {
+    background-color: #D9E5E3;
+}
+
+aside {
+    color: #F2FFFC;
+    background-color: #3C1D3D;
+}
+
+main h1 {
+    background-color: #851944;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+main a {
+    color: #851944;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+nav a {
+    color: #F2FFFC;
+}
+
+footer {
+    color: #F2FFFC;
+    background-color: #000000;
+}
