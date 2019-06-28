@@ -3,9 +3,11 @@ body {
     font-family: "Crimson Text", "Times New Roman", serif';
 }
 
-h1, h2 {
-    font-family: 'Open Sans Condensed', sans-serif;
+h1, h2, h3, h4{
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;    
 }
+
 
 p {
     font-family: 'Crimson Text', serif;    
@@ -15,4 +17,8 @@ p {
 a {
     font-family: "Open Sans Condensed";
     text-decoration: none;
+}
+
+li {
+    list-style-type: none;
 }

@@ -1,22 +1,52 @@
+body {
+    margin: 0;
+    line-height: 1.5em;
+}
 
 blockquote {
     background-color: #D9E5E3;
 }
 
-aside {
+aside {    
+    text-align: center;
     color: #F2FFFC;
     background-color: #3C1D3D;
 }
 
-main h1 {
+main h1 {    
+    box-sizing: border-box;
+    border-top: 0.3em solid #000000;
+    border-bottom: 0.3em solid #000000;
     background-color: #851944;
+    font-family: 'Abel', sans-serif;
     color: #FFFFFF;
+    font-size: 2.5em;
     text-align: center;
+    padding: 1em;
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+
+main h2, h3 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+main blockquote {
+    box-sizing: border-box;
+    width: 13em;
+    padding: 1em;
+    border: 0.2em solid #B9BBC1;
+    margin-bottom: 1em;
 }
 
 main a {
     color: #851944;
     font-family: 'Open Sans Condensed', sans-serif;
+}
+
+main {
+    margin: 0 auto;    
 }
 
 nav a {
@@ -26,4 +56,10 @@ nav a {
 footer {
     color: #F2FFFC;
     background-color: #000000;
+    padding: 1em;
+}
+
+
+.social-icons li {
+    display: inline-block;
 }
