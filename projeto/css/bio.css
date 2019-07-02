@@ -4,7 +4,7 @@ body {
 }
 
 main {
-    float: left;
+    float: right;
     width: 80%;
 }
 
@@ -12,8 +12,7 @@ blockquote {
     background-color: #D9E5E3;
 }
 
-aside {        
-    clear: right;
+aside {    
     border: 10px solid black;
     text-align: center;
     color: #F2FFFC;
@@ -43,7 +42,8 @@ main h1 {
     margin-bottom: 2em;
 }
 
-main h2, h3 {
+main h2 {
+    font-size: 1.5em;
     margin-top: 1em;
     margin-bottom: 1em;
 }
@@ -76,7 +76,7 @@ nav a {
 
 .container {    
     margin: 0 auto;
-    width: 60em;
+    width: 70%;
 }
 
 .quote-fiat {
@@ -84,7 +84,7 @@ nav a {
 }
 
 .quote-petrobras {
-    float: right;
+    float: left;
 }
 
 .social-icons li {
@@ -121,5 +121,5 @@ nav a {
 aside, .img-joao {
     box-sizing: border-box;
     width: 20%;
-    float: right;
+    float: left;
 }
