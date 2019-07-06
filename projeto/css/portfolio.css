@@ -1,0 +1,66 @@
+main {    
+    width: 50%;
+    margin: 0 auto;
+}
+
+figure {    
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 16px;
+    height: 220px;
+    width: 360px;
+    margin: 16px;        
+    background-color: #FAFFFC;    
+    border: 8px solid #000;
+}
+
+figure-caption {
+    text-align: center;
+}
+
+.menu-lateral {
+    color: #FFF;
+    position: absolute;
+    text-align: center;
+    top: 316px;       
+    float: left;
+    border: 8px solid #000;
+    text-transform: uppercase;
+    background-color: #3C1D3D;
+    width: 300px;    
+}
+
+.menu-lateral a {
+    color: #FFF;
+}
+
+.social-icons li {
+    display: inline;
+}
+
+.social-icons a {    
+    display: inline-block;
+    font-size: 0;
+    height: 40px;
+    width: 40px;
+}
+
+.img-joao {
+    border: 8px solid black;
+    box-sizing: border-box;
+    position: absolute;
+    float: left;
+    top: 0;
+}
+
+.github {    
+    background-image: url(../img/github.png);    
+}
+
+.twitter { 
+    background-image: url(../img/twitter.png);
+}
+
+.linkedin {
+    background-image: url(../img/linkedin.png);
+}

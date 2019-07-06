@@ -1,11 +1,13 @@
 body {
     margin: 0;
-    line-height: 1.5em;
+    line-height: 1.5em;    
 }
 
 main {
-    float: right;
+    position: absolute;
+    right: 0;
     width: 80%;
+    padding-bottom: 2em;
 }
 
 blockquote {
@@ -13,33 +15,13 @@ blockquote {
 }
 
 aside {    
+    position: absolute;
+    top: 381px;    
     border: 10px solid black;
     text-align: center;
     color: #F2FFFC;
     background-color: #3C1D3D;
     padding-bottom: 1em;
-}
-
-footer {        
-    clear: both;
-    color: #F2FFFC;
-    background-color: #000000;
-    padding: 1em;
-}
-
-main h1 {        
-    box-sizing: border-box;
-    border-top: 0.3em solid #000000;
-    border-bottom: 0.3em solid #000000;
-    background-color: #851944;
-    font-family: 'Abel', sans-serif;
-    color: #FFFFFF;
-    font-size: 2.5em;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 1em;
-    margin-top: 0;
-    margin-bottom: 2em;
 }
 
 main h2 {
@@ -77,6 +59,7 @@ nav a {
 .container {    
     margin: 0 auto;
     width: 70%;
+    padding-bottom: 50px;
 }
 
 .quote-fiat {
@@ -111,6 +94,7 @@ nav a {
 }
 
 .img-joao {
+    position: absolute;       
     border: 10px solid black;
 }
 
@@ -121,5 +105,5 @@ nav a {
 aside, .img-joao {
     box-sizing: border-box;
     width: 20%;
-    float: left;
+    float: right;
 }

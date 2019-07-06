@@ -11,21 +11,6 @@ a {
     color: blue;
 }
 
-main h1 {
-    text-transform: uppercase;
-    box-sizing: border-box;
-    margin-top: 0;
-    margin-bottom: 2em;
-    padding: 1em;
-    font-family: 'Abel', sans-serif;
-    font-size: 2.5em;
-    color: #FFFFFF;
-    text-align: center;
-    background-color: #851944;
-    border-top: 0.3em solid black;
-    border-bottom: 0.3em solid black;    
-}
-
 main h2 {
     font-size: 1.5em;
     margin-top: 0.5em;
@@ -46,13 +31,6 @@ main aside footer {
     background-color: #000;
     color: #FFF;
     font-size: 1.2em;
-}
-
-#footer {
-    clear: both;
-    background: #000;
-    color: #F2FFFC;
-    padding: 1em;
 }
 
 .container {
