@@ -1,6 +1,6 @@
-body {
+html {
     margin: 0;
-    line-height: 1.5em;    
+    line-height: 1.5em;
 }
 
 main {
@@ -17,7 +17,7 @@ blockquote {
 aside {    
     position: absolute;
     top: 381px;    
-    border: 10px solid black;
+    border: 1rem solid #000000;
     text-align: center;
     color: #F2FFFC;
     background-color: #3C1D3D;
@@ -94,16 +94,10 @@ nav a {
 }
 
 .img-joao {
-    position: absolute;       
-    border: 10px solid black;
+    position: absolute;
+    border: 1rem solid #000000;
 }
 
 .container h2 {
     clear: both;
-}
-
-aside, .img-joao {
-    box-sizing: border-box;
-    width: 20%;
-    float: right;
 }
