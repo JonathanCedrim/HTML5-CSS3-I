@@ -70,8 +70,9 @@ nav a {
 }
 
 .img-joao {
+    border-radius: 10% 50%/ 50% 10% ;
 }
-.menu-lateral {
+.left-menu {
     clear: left;
     color: #FFF;
     text-align: center;
@@ -79,14 +80,14 @@ nav a {
     background-color: #3C1D3D;
 }
 
-.menu-lateral a {
+.left-menu a {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .container h2 {
     clear: both;
 }
-.menu-lateral, .img-joao {    
+.left-menu, .img-joao {    
     position: relative;
     box-sizing: border-box;
     border: 1rem solid #000000;

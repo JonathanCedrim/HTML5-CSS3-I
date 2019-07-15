@@ -37,3 +37,11 @@ main aside footer {
     margin: 0 auto;
     width: 80%;
 }
+
+.read-more {
+    text-transform: uppercase;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #D5CCDE;
+    padding: 1rem;
+}

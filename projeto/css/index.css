@@ -33,6 +33,7 @@ main div h3 {
     width: 300px;
 }
 .container-1 {
+    position: relative;
     background-color: #851944;
     color: #FFF;
 }
@@ -40,7 +41,11 @@ main div h3 {
     background-color: #3D1C3D;
 }
 .container-4 {
+    position: relative;
     background-color: #B2B7BF;
+}
+.container-1 li {
+    position: absolute;
 }
 .container-2 strong {
     font-size: 3em;
@@ -64,4 +69,67 @@ main div h3 {
 }
 .container-4 nav a {
     color: #C756D6;
+}
+.post-begin {
+    border-radius: 0.5rem;
+    padding: 3rem;
+    text-align: center;
+    right: 10rem;
+    position: absolute;
+    top: 10rem;
+    font-size: 0.5em;
+    background-color: #FFF;
+}
+.new-post {
+    width: 60%;
+    background-color: #FFF;
+}
+.palavra-home {
+    position: absolute;
+    font-size: 100%;
+    font-family: 'Shadows Into Light', cursive;
+}
+.eficiencia {
+    top: 25%;
+    right: 65%;
+}
+.boas-praticas {
+    top: 14%;
+    right: 15%;
+}
+.codigo-limpo {
+    top: 30%;
+    right: 35%;
+}
+.css3 {
+    top: 40%;
+    right: 95%;
+}
+.html5 {
+    top: 10%;
+    right: 35%;
+}
+.javascript {
+    top: 70%;
+    right: 65%;
+}
+.acessibilidade {
+    top: 60%;
+    right: 35%;
+}
+.responsivo {
+    top: 60%;
+    right: 85%;
+}
+.otimizacoes {
+    top: 80%;
+    right: 15%;
+}
+.agilidade {
+    top: 20%;
+    right: 85%;
+}
+.design {
+    top: 10%;
+    right: 65%;
 }
