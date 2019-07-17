@@ -1,0 +1,21 @@
+.box {
+    display: inline-block;
+    width: 10rem;
+    height: 10rem;
+    background-color: #000;
+    border-top: 10px solid blue;
+    border-left: 10px solid pink;
+    border-bottom: 10px solid red;
+    transform: translate(100px, 200px) rotate(45deg) scale(1.5);
+}
+
+.boxII {
+    display: inline-block;
+    width: 10rem;
+    height: 10rem;
+    background-color: purple;
+    border-top: 10px solid blue;
+    border-left: 10px solid pink;
+    border-bottom: 10px solid red;
+    transform: translate(200px, 200px) rotate(-45deg) scale(1.5);
+}
