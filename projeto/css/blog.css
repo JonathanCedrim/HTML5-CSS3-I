@@ -2,10 +2,7 @@ body {
     margin: 0;
 }
 
-.container {
-    margin: 0 auto;    
-    line-height: 1.5em;
-}
+
 
 a {
     color: blue;
@@ -30,14 +27,18 @@ main aside footer {
     margin-top: 2em;
     background-color: #000;
     color: #FFF;
-    font-size: 1.2em;
+    font-size: 1.2em;    
 }
-
+#footer {
+    background-color: rgba(0, 0, 0, .1);
+    color: #000;
+    
+}
 .container {
     margin: 0 auto;
+    line-height: 1.5em;
     width: 80%;
 }
-
 .read-more {
     text-transform: uppercase;
     text-align: center;
