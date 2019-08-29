@@ -108,12 +108,12 @@ nav a {
     margin-top: 0;
     margin-bottom: 1.7em;    
 }
-#footer {
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    color: #F2FFFC;
-    background-color: #000000;    
+main a:hover {
+    color:red;
 }
-
+footer a:hover {
+    color: red;
+}
+.menu-lateral a:hover {
+    text-shadow: 2px 5px 2px pink;
+}

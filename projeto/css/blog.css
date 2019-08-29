@@ -1,38 +1,41 @@
 body {
     margin: 0;
 }
-
-
-
 a {
     color: blue;
 }
-
+main {
+    background-size: 20px 20px;
+    background-image: linear-gradient(-135deg, transparent, transparent 13px, rgba(0, 0, 0, 0.1) 14px, rgba(0, 0, 0, 0.1) 15px, transparent, transparent 15px);
+    background-attachment: fixed;
+}
 main h2 {
     font-size: 1.5em;
     margin-top: 0.5em;
     margin-bottom: 0.8em;
 }
-
 main aside {    
     margin-left: 5em;
     margin-bottom: 0;
     width: 50em;
     background-color: #FFF;
-    padding-bottom: 0;
-    border-bottom: 0.1em solid #bfebff;
+    padding-bottom: 0;    
 }
-
 main aside footer {
     margin-top: 2em;
-    background-color: #000;
     color: #FFF;
     font-size: 1.2em;    
 }
 #footer {
-    background-color: rgba(0, 0, 0, .1);
-    color: #000;
-    
+    color: #FFF;
+    position: fixed;    
+    padding-top: 50px;    
+    bottom: 0;
+    height: 5%;
+    width: 50%;
+    background-repeat: no-repeat;    
+    background-size: 25% 100%;
+    background-image: radial-gradient(ellipse at bottom left, rgba(60, 29, 61, 0.8), rgba(60, 29, 61, 0.8) 65%,black 66%, black 70%, transparent 70%);
 }
 .container {
     margin: 0 auto;
@@ -45,4 +48,12 @@ main aside footer {
     box-sizing: border-box;
     background-color: #D5CCDE;
     padding: 1rem;
+}
+.container aside:not(:last-child) {
+    padding-bottom: 5rem;
+    margin-bottom: 5rem;
+    background-repeat: no-repeat;
+    background-size: 80% 10px;
+    background-position: bottom center;
+    background-image: linear-gradient(to bottom, transparent, rgba(200, 200, 200, 1), red);
 }

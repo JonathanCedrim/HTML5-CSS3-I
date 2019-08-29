@@ -2,18 +2,12 @@ html {
     margin: 0;
     line-height: 1.5em;
 }
-
 main {
     position: absolute;
     right: 0;
     width: 100%;
     padding-bottom: 2em;
 }
-
-blockquote {
-    background-color: #D9E5E3;
-}
-
 aside {    
     position: absolute;
     top: 381px;    
@@ -23,81 +17,141 @@ aside {
     background-color: #3C1D3D;
     padding-bottom: 1em;
 }
-
+footer {
+    color: #FFF;
+    position: fixed;
+    bottom: 0;
+    padding-top: 5rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 25% 100%;
+    background-image: radial-gradient(ellipse at bottom left, red, red 65%, black 66%, black 70%, transparent 70%);
+}
 main h2 {
     font-size: 1.5em;
     margin-top: 1em;
     margin-bottom: 1em;
 }
-
-main blockquote {
+blockquote {
+    background-color: #D9E5E3;
     box-sizing: border-box;
     width: 13em;
     padding: 1em;
     border: 0.2em solid #B9BBC1;
     margin-bottom: 1em;
+    
 }
-
 main a {
     color: #851944;
     font-family: 'Open Sans Condensed', sans-serif;
 }
-
+main a:hover {
+    color:red;
+}
 aside h1 {
     text-transform: uppercase;
 }
-
 nav li {
     text-transform: uppercase;
 }
-
 nav a {
     text-transform: lowercase;
     color: #F2FFFC;
 }
-
 .container {    
     margin: 0 auto;
     width: 50%;
     padding-bottom: 50px;
 }
-
-.quote-fiat {
-    float: right;
-}
-
-.quote-petrobras {
-    float: left;
-}
-
 .social-icons li {
     display: inline-block;
 }
-
 .social-icons a{
     display: inline-block;
     height: 40px;
     width: 40px;
     color: transparent;
 }
-
 .github {    
     background-image: url(../img/github.png);
 }
-
 .twitter {
     background-image: url(../img/twitter.png);
 }
-
 .linkedin {
     background-image: url(../img/linkedin.png);
 }
-
 .img-joao {
     position: absolute;
     border: 1rem solid #000000;
 }
-
 .container h2 {
     clear: both;
+}
+.quote-fiat:hover::before, .quote-fiat:focus::before, .quote-petrobras:hover::before, .quote-petrobras:focus::before {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 8em;
+    content: '“';
+    position: absolute;    
+    line-height: .8;
+    z-index: -1;
+    color: rgba(0, 0, 0, .3);
+}
+blockquote:nth-of-type(even) {
+    float: left;
+}
+blockquote:focus {
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 0px 0px 5000px rgba(0, 0, 0, .9);
+}
+blockquote:hover:nth-of-type(odd), blockquote:focus:nth-of-type(odd) {
+    z-index: 1; 
+    position: relative;
+    box-shadow: 10px 10px 0px 5000px rgba(0, 0, 0, .9);
+    transform: scale(1.7, 3) rotate(4deg);
+}
+blockquote:hover:nth-of-type(even), blockquote:focus:nth-of-type(even) {
+    z-index: 1;
+    position: relative;
+    box-shadow: 10px 10px 0px 5000px rgba(0, 0, 0, .9);
+    transform: scale(1.7, 3) rotate(-4deg);
+}
+.container > p::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    color: #3C1D3D;
+    text-shadow: 1px 1px #000;
+    margin-right: 2ch;
+    line-height: 1;
+}
+.menu-lateral a {    
+    position: relative;
+}
+.menu-lateral li a:hover::before {
+    text-shadow: none;
+    content: attr(data-tooltip);
+    position: absolute;
+    top: 100%;
+    right: 0;
+    text-indent: 0;
+    height: 100%;
+    width: 300%;
+    background-color: #000;
+    z-index: 2;
+    font-size: 1rem;
+}
+.tooltip-manga:hover {
+    position: relative;
+}
+.tooltip-manga:hover::before {
+    content: '';    
+    background-color: red;
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(-5em) rotate(45deg);
+    border-radius: 10%;
 }
